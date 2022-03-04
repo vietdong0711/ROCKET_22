@@ -1,3 +1,4 @@
+/*Câu 1+2*/
 
 DROP DATABASE IF EXISTS Testing_System_Assignment_2;
 CREATE DATABASE IF NOT EXISTS Testing_System_Assignment_2;
@@ -70,7 +71,6 @@ CREATE TABLE IF NOT EXISTS CategoryQuestion (
     PRIMARY KEY(CategoryID)
 );
 
-/*Câu 1+2*/
 
 -- Question
 DROP TABLE IF EXISTS Question;
