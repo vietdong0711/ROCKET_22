@@ -1,6 +1,6 @@
 USE testINg_system_ASsignment;
 
--- 1 
+-- 
 	-- veiw
    CREATE VIEW QuestiON1 AS(
     SELECT a.*, d.DepartmentName
@@ -14,7 +14,7 @@ USE testINg_system_ASsignment;
     WHERE d.DepartmentName = "Sale")
     SELECT * FROM QuestiON1_CTE;
     
--- 2 
+-- 
 	-- view
    CREATE VIEW QuestiON2 AS(
     SELECT a.*
@@ -41,7 +41,7 @@ USE testINg_system_ASsignment;
     LIMIT 1)))
     SELECT * FROM QuestiON2_CTE;
     
--- 3
+-- 
 	-- view
    CREATE VIEW QuestiON3 AS (
     SELECT * 
@@ -50,7 +50,7 @@ USE testINg_system_ASsignment;
     
     drop view QuestiON3;
 
--- 4
+--
 	-- view
    CREATE VIEW QuestiON4 AS (
     SELECT d.DepartmentName, COUNT(d.DepartmentID) AS So_nhan_vien
@@ -82,7 +82,7 @@ USE testINg_system_ASsignment;
     LIMIT 1)))
     SELECT * FROM QuestiON4_CTE;
     
---  5
+-- 
 	-- view 
    CREATE VIEW QuestiON5 AS(
     SELECT q.*, a.FullName
