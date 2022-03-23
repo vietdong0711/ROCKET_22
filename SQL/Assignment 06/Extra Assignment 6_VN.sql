@@ -82,10 +82,11 @@ begin
 	select count(*) as x from project where ProjectCompleteDone != null and ProjectCompleteDone < date_sub(now(), interval 3 month);
     select count(*) as y from project_modules m join project p on m.ProjectID = p.ProjectID where  p.ProjectCompleteDone != null and p.ProjectCompleteDone < date_sub(now(), interval 3 month);
     delete from project where ProjectCompleteDone != null and ProjectCompleteDone < date_sub(now(), interval 3 month);
-    select concat('Đã xóa', x+y, 'hàng') as sohang;
+    signal sqlstate '12345' set message_text = 'aaa';
+
 end&&
 delimiter ;
-
+call removeEx1();
 -- c
 drop procedure if exists Ex6CountModule;
 delimiter &&
