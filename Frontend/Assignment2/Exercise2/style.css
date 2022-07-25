@@ -1,0 +1,45 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+.me{
+    color: blue;
+    background-color: pink;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.body{
+    background-color: yellow;
+}
+.a1{
+    float: left;
+    width: 25%;
+}
+.a2{
+    float: left;
+    width: 75%;
+}
+ol>li{
+    width: auto;
+    background-color: pink;
+}
+tr,th,td{
+    border: 3px solid black;
+}
+th{
+    color:  white;
+    text-align: center;
+}
+.tr{
+    background-color: white;
+}

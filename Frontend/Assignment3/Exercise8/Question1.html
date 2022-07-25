@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question1</title>
+</head>
+<body>
+    Number 1: <input type="number" name="" id="n1"><br>
+    Number 2: <input type="number" name="" id="n2"><br>
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    <button onclick="di()"> % </button>
+    Kết quả: <input type="text" id="rs" disabled> 
+    <script>
+        function add(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a+b);
+            document.getElementById("rs").value = r;
+            
+        }
+        function sub(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a-b);
+            document.getElementById("rs").value = r;
+        }
+        function mul(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a*b);
+            document.getElementById("rs").value = r;
+        }
+        function div(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a/b);
+            document.getElementById("rs").value = r;
+        }
+        function di(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = a%b;
+            document.getElementById("rs").value = r;
+        }
+    </script>
+</body>
+</html>

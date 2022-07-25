@@ -1,0 +1,16 @@
+
+div{
+    width: 1400px;
+    float: right;
+}
+section{
+    width: 300px;
+    float: left;
+    margin: 50px;
+}
+img{
+    width: 300px;
+}
+button{
+    float: right;
+}

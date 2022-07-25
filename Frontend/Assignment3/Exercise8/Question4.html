@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px ">
+        <tr>
+            <td>Nhập số thứ 1</td>
+            <td>
+                <input type="numbẻ" name="" id="n1">
+            </td>
+        </tr>
+        <tr>
+            <td>Nhập số thứ 2</td>
+            <td>
+                <input type="numbẻ" name="" id="n2">
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <select name="" id="ca">
+                    <option value="cong">+</option>
+                    <option value="tru">-</option>
+                    <option value="nhan">*</option>
+                    <option value="chia">/</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Result: </td>
+            <td>
+                <input type="text" name="" id="rs" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"> 
+                <button onclick="tinh()">Caculate</button>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function add(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a+b);
+            document.getElementById("rs").value = r;
+            
+        }
+        function sub(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a-b);
+            document.getElementById("rs").value = r;
+        }
+        function mul(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a*b);
+            document.getElementById("rs").value = r;
+        }
+        function div(){
+            var a = Number(document.getElementById("n1").value);
+            var b = Number(document.getElementById("n2").value);
+            var r = (a/b);
+            document.getElementById("rs").value = r;
+        }
+        function tinh(){
+            var t = document.getElementById("ca").value
+            if (t=="cong") {
+                add();
+            } else if(t=="tru") {
+                sub();
+            }else if(t=="nhan") {
+                mul();
+            }else if(t=="chia") {
+                div();
+            }
+        }
+    </script>
+</body>
+</html>

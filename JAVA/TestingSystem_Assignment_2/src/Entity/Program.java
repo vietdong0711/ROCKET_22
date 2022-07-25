@@ -35,6 +35,8 @@ public class Program {
 			ps3.positionName= PostionName.Scrum_Master;
 			
 			//Tạo account
+			Account acc0 = new Account(4, "nguyenvietdong9e@gmail.com", "nvdong", "nvdong", department1, ps1);
+			
 			Account acc1 = new Account();
 			acc1.accountID = 1;
 			acc1.fullName="Nguyễn Văn 1";

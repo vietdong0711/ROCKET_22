@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Title</a> 
+            </div>-->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Admin</a></li>
+          </ul>
+          <!-- search -->
+          <!-- <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search" />
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form> -->
+          <!-- end search -->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" style="padding-right: 20px"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+            </li>
+            <li>
+              <a href="#" style="padding-right: 20px"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+            </li>
+            <!-- <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li> -->
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </nav>
+      <!-- carousel -->
+
+      <div id="carousel-id" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+          <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+          <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item">
+            <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="../image/BannerImg1.png" />
+            <!-- <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+                  ultricies vehicula ut id elit.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div> -->
+          </div>
+          <div class="item active">
+            <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="../image/BannerImg.png" />
+            <!-- <div class="container">
+              <div class="carousel-caption">
+                <h1>One more for good measure.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+                  ultricies vehicula ut id elit.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+      <!-- end carousel -->
+      <div class="Product">
+        <!-- Ảnh khuyến mãi -->
+        <br />
+        <div class="row">
+          <img src="../image/product/ImgInfor.png" alt="" width="100%" />
+        </div>
+        <br />
+        <!-- List sp -->
+
+        <div class="row">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="row">
+              <!-- Ảnh -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="../image/product/ImgMobile1.png" alt="" height="190px" width="160px" />
+              </div>
+            </div>
+            <div class="row">
+              <!-- Tên -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 style="font-weight: bold">Tên sản phẩm</h3>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Hãng sx -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>Hãng sản xuất: ...</h4>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Đánh giá -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="rating" style="list-style: none; display: flex; font-size: 20px; padding-inline-start: 0px">
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4>1.000.000đ</h4>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <button type="button" class="btn btn-default" style="border: 0px">
+                  <i class="fa fa-shopping-cart" style="color: red; font-size: 35px"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="row">
+              <!-- Ảnh -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="../image/product/ImgMobile1.png" alt="" height="190px" width="160px" />
+              </div>
+            </div>
+            <div class="row">
+              <!-- Tên -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 style="font-weight: bold">Tên sản phẩm</h3>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Hãng sx -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>Hãng sản xuất: ...</h4>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Đánh giá -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="rating" style="list-style: none; display: flex; font-size: 20px; padding-inline-start: 0px">
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4>1.000.000đ</h4>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <button type="button" class="btn btn-default" style="border: 0px">
+                  <i class="fa fa-shopping-cart" style="color: red; font-size: 35px"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="row">
+              <!-- Ảnh -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="../image/product/ImgMobile1.png" alt="" height="190px" width="160px" />
+              </div>
+            </div>
+            <div class="row">
+              <!-- Tên -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 style="font-weight: bold">Tên sản phẩm</h3>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Hãng sx -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>Hãng sản xuất: ...</h4>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Đánh giá -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="rating" style="list-style: none; display: flex; font-size: 20px; padding-inline-start: 0px">
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4>1.000.000đ</h4>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <button type="button" class="btn btn-default" style="border: 0px">
+                  <i class="fa fa-shopping-cart" style="color: red; font-size: 35px"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="row">
+              <!-- Ảnh -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="../image/product/ImgMobile1.png" alt="" height="190px" width="160px" />
+              </div>
+            </div>
+            <div class="row">
+              <!-- Tên -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 style="font-weight: bold">Tên sản phẩm</h3>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Hãng sx -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>Hãng sản xuất: ...</h4>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Đánh giá -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="rating" style="list-style: none; display: flex; font-size: 20px; padding-inline-start: 0px">
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4>1.000.000đ</h4>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <button type="button" class="btn btn-default" style="border: 0px">
+                  <i class="fa fa-shopping-cart" style="color: red; font-size: 35px"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="row">
+              <!-- Ảnh -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="../image/product/ImgMobile1.png" alt="" height="190px" width="160px" />
+              </div>
+            </div>
+            <div class="row">
+              <!-- Tên -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 style="font-weight: bold">Tên sản phẩm</h3>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Hãng sx -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h4>Hãng sản xuất: ...</h4>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Đánh giá -->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="rating" style="list-style: none; display: flex; font-size: 20px; padding-inline-start: 0px">
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star selected" style="color: orange"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h4>1.000.000đ</h4>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <button type="button" class="btn btn-default">
+                  <i class="fa fa-shopping-cart" style="font-size: 35px; color: red"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="FooterSection">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="../image/footer/FooterIMG.png" alt="NoImage" style="width: 100%" />
+              </div>
+            </div>
+            <!--End Footer -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

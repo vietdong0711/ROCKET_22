@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <table border="1px ">
+        <tr>
+            <td>Nhập độ dài cạnh thứ 1</td>
+            <td>
+                <input type="numbẻ" name="" id="c1">
+            </td>
+        </tr>
+        <tr>
+            <td>Nhập độ dài cạnh thứ 2</td>
+            <td>
+                <input type="numbẻ" name="" id="c2">
+        </tr>
+        <tr>
+            <td colspan="2"> 
+                <button style="margin-left: 50%;" onclick="tinh()">Tính toán</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Chu vi là: </td>
+            <td>
+                <input type="text" name="" id="cv">
+            </td>
+        </tr>
+        <tr>
+            <td>Diện tích là: </td>
+            <td>
+                <input type="text" name="" id="dt">
+        </tr>
+    </table>
+
+    <script>
+        function tinh(){
+            var a = Number(document.getElementById("c1").value);
+            var b = Number(document.getElementById("c2").value);
+            document.getElementById("cv").value = 2*(a+b);
+            document.getElementById("dt").value = a*b;
+        }
+    </script>
+</body>
+</html>

@@ -11,6 +11,22 @@ public class Account {
 	public Position position;
 	public Date createDate;
 	public Group[] groups;
+	
+	
+	
+	public Account() {
+		super();
+	}
+	public Account(int accountID, String emai, String username, String fullName, Department department,
+			Position position) {
+		super();
+		this.accountID = accountID;
+		this.emai = emai;
+		this.username = username;
+		this.fullName = fullName;
+		this.department = department;
+		this.position = position;
+	}
 	public int getAccountID() {
 		return accountID;
 	}
